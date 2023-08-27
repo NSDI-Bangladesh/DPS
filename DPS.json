@@ -1,0 +1,922 @@
+[
+    {
+        "Organization": "Bangladesh Agriculture and Research Council (BARC)",
+        "Overview": {
+            "Title": "Data Product Specifications of Land Resources Inventory Database of BARC",
+            "Date": "30-Sep-2021",
+            "Responsible Organization": "Bangladesh Agriculture and Research Council (BARC)",
+            "Language": "English",
+            "Topic Category": "Agricultural Land Resources",
+            "Document Format": "Microsoft Word",
+            "Objectives": "This nationwide data is available for organizations under National Agricultural Research System, Agricultural Extensions, Academia, researchers, and other users. These datasets include administrative boundary, natural and hydrological resources, cropping pattern and agro-climatic information, etc. The land resources data base developed for use in the land resources appraisal of Bangladesh. The data base provides a 'permanent' record of natural resources information for future use in agricultural sector of Bangladesh.",
+            "Extent of the data": "Spatial extent of the data is whole Bangladesh. The Geographic Coordinate System is Everest 1830.\nTop: 26.634395 dd \nBottom: 20.641547 dd\nLeft: 88.010569 dd\nRight: 92.627508 dd",
+            "Normative References": "•\tNational Agriculture Policy (NAP) \n•\tNational Food Policy \n•\tPRSP- Agriculture and Rural Development Guidelines for Data Product Specifications (NSDI) \n•\tGuidelines for Data Quality (NSDI) \n•\tGuidelines for Metadata (NSDI)"
+        },
+        "Scope": {
+            "Scope identification": "Land Resources Inventory Database preparation for organizations under National Agricultural Research System, Agricultural Extensions, Academia, researchers, and other stakeholders",
+            "Hierarchical level": "Root level to scope level hierarchy"
+        },
+        "Data Product Identification": {
+            "Name": "Land Resources Inventory Database of BARC. ",
+            "Date of Data Creation": "NA",
+            "Contact information": "Bangladesh Agriculture and Research Council\n(Computer and GIS Division), Police Box Bus Stop, Khamar Bari Rd, Dhaka 1215\nTelephone:58152275\nEmail: ec-barc@barc.gov.bd, info@barc.gov.bd\nURL: http:www.barc.gov.bd"
+        },
+        "Geographic description": "Land Resources information for whole Bangladesh",
+        "Data Content and Structure": "Detail data structure is attached in the 'Annex 01Data content and structure document of BARC'",
+        "Reference System": {
+            "Spatial reference system": "Geographic Coordinate System: Everest 1830\nAngular Unit: Degree (0.0174532925199433)\nPrime Meridian: Greenwich (0.0)\nDatum:  D Everest 1830\nSpheroid: Everest 1830\nSemimajor Axis: 6377299.36\nSemiminor Axis: 6356098.35162804\nInverse Flattening: 300.8017",
+            "Temporal reference system": "Reference system identifier: Gregorian calendar"
+        },
+        "Data Quality": "The administrative shape files in this database are collected from Bangladesh Bureau of Statistics (BBS). Besides, the main source of information on soils and landforms are the reconnaissance soil survey reports published by the Soil Resources Development Institute (SRDI). \nSRDI created this survey data at 1: 50,000 scale by free hand digitization from Survey of Bangladesh’s Arial Photo map (spatial resolution of Arial Photo is 50 cm) height. Later they verified this data in the field. This process is followed to create soil polygon data. On the other hand, soil sample points data (soil chemical and physical properties data added as attributes to this point) are collected by using handheld GPS with an accuracy of (+-) 5 m. \nLater, BARC created GIS data from this upazila wise soil map of SRDI and matches upazila’s edges for whole country. Thus, this soil related GIS data is created through adding locational intelligence to it by BARC. BARC also performed spatial analysis on this spatially corrected data to create crop suitability maps. ",
+        "Data Product Delivery": {
+            "Name of data formats": "ArcGIS Shapefile Feature Class ArcInfo Coverage",
+            "Structure of data set": "NA",
+            "Encoding rules": "ArcGIS ShapefileFeature Class",
+            "Language": "English"
+        },
+        "Metadata": "To be prepared according to Guidelines for Metadata (NSDI)"
+    },
+    {
+        "Organization": "Bangladesh Bureau of Statistics (BBS)",
+        "Overview": {
+            "Title": "Geospatial data of Bangladesh Bureau of Statistics (BBS)",
+            "Date": "21-Nov-2021",
+            "Responsible Organization": "Bangladesh Bureau of Statistics (BBS)",
+            "Language": "English",
+            "Topic Category": "Statistics, Census",
+            "Document Format": "Microsoft Word",
+            "Objectives": "This data is prepared to ensure sustainable environmental governance for achieving high quality of life for the benefit or present and future generations. BBS is also responsible organization for producing Geocodes of the Bangladesh administrativelegislative units. BBS started the Geocoding and till to this date it updates the database.",
+            "Extent of the data": "The data is served for all over Bangladesh. The Geographic Coordinate System is WGS 1984.\n  \nTop: 26.633914 dd \nBottom: 20.587349 dd \nLeft: 88.008614 dd \nRight: 92.680115 dd",
+            "Normative References": "•\tGEO Code list (Up to Upazila Label) of Bangladesh as of May 2011\n•\tGuidelines for Data Product Specifications (NSDI)\n•\tGuidelines for Data Quality (NSDI)\n•\tGuidelines for Metadata (NSDI)"
+        },
+        "Scope": {
+            "Scope identification": "Data Product Specification for Bangladesh Bureau of Statistics (BBS).",
+            "Hierarchical level": "Root level in the scope level hierarchy (Bangladesh Union Level)"
+        },
+        "Data Product Identification": {
+            "Name": "Data Product Specifications on Geospatial data of Bangladesh Bureau of Statistics (BBS)",
+            "Date of Data Creation": "The formulation of Geocode for the administrative units of Bangladesh by BBS was started in 1981. Till now BBS update the Geocode list upon establishment of new administrative units.",
+            "Contact information": "Director \nFA & MIS Wing\nBangladesh Bureau of Statistics (BBS)\nParishankhyan Bhaban,\nE-27A, Agargaon, Dhaka-1207, Bangladesh.\nTelephone: +88-02-8181421, +88 02 55007068\nE-Mail: emdad1972@yahoo.com, emdad0072@gmail.com"
+        },
+        "Data Content and Structure": "Detail data structure is attached in the 'Annex 01Data content and structure document of BBS'",
+        "Reference System": {
+            "Spatial reference system": "Geographic Coordinate System: WGS 1984 \nWKID: 4326\nAuthority: EPSG\nAngular Unit:\tDegree (0.0174532925199433) \nPrime Meridian: Greenwich (0.0) \nDatum: D WGS 1984 \nSpheroid: WGS 1984 \nSemimajor Axis:\t6378137.0 \nSemiminor Axis:\t6356752.314245179 \nInverse Flattening:\t298.257223563 ",
+            "Temporal reference system": "Reference system identifier: Gregorian Calendar"
+        },
+        "Data Quality": "Data quality document will be prepared with the help of NSDI data quality guideline.",
+        "Data Product Delivery": {
+            "Name of data formats": "Esri Shapefile format.",
+            "Structure of data set": "GIS Data is stored and managed in Esri Shapefile format. Major layersShapefiles are as follows:\nBBS Thana Line\nBBS International Line \nBBS Division Line \nBBS District Line\nBBS Union Boundary\nBBS Thana Boundary",
+            "Encoding rules": "Esri Shapefile format.",
+            "Language": "English"
+        },
+        "Metadata": "Rules of metadata are not followed but the need basis metadata is stored in excel spreadsheet. Besides, a new metadata guideline for BBS will be created with the help of NSDI metadata guideline."
+    },
+    {
+        "Organization": "Bangladesh Forest Department (BFD)",
+        "Overview": {
+            "Title": "Land Cover Classification System (LCCS) Database of Bangladesh Forest Department (BFD)",
+            "Date": "30-Sep-2021",
+            "Responsible Organization": "Bangladesh Forest Department (BFD)",
+            "Language": "English",
+            "Topic Category": "Forest resources",
+            "Document Format": "Microsoft Word",
+            "Objectives": "BFD is the apex body responsible for expanding and conserving forest land of Bangladesh. The database is required for monitoring, assessing, the condition of forested area of Bangladesh. Geospatial database and modern technology are crucial for proper management of biodiversity and forest resources. This will further aid sustainable development of the country. ",
+            "Extent of the data": "Spatial extent of the data is as follows:\nThe Geographic Coordinate System is WGS 1984 \nTop: 26.633914 dd\nBottom: 20.587349 dd\nLeft: 88.008614 dd\nRight: 92.680115 dd",
+            "Normative References": "•\tForest Policy 2016 (Proposed)\n•\tWarsaw Framework for REDD+\n•\tToward Efficient Land Cover Mapping: An Overview of the National Land Representation System and Land Cover Map 2015 of Bangladesh\n•\tBangladesh Forest Information System (Geoportal) (http:geoportal.bforest.gov.bd)\n•\tGuidelines for Data Product Specifications (NSDI)\n•\tGuidelines for Data Quality (NSDI)\n•\tGuidelines for Metadata (NSDI)"
+        },
+        "Scope": {
+            "Scope identification": "Data Product Specifications on Land Cover Classification System (LCCS) database to monitor and conserve forest resources of Bangladesh. ",
+            "Hierarchical level": "Root level to scope level hierarchy"
+        },
+        "Data Product Identification": {
+            "Name": "Land Cover Classification System (LCCS) Database of Bangladesh Forest Department (BFD)",
+            "Date of Data Creation": "2015 to 2017",
+            "Contact information": "Resource Information Management System (RIMS) Unit\nBangladesh Forest Department (BFD)\nBana Bhaban, Plot No- E-8, B-2\nAgargaon, Sher-e-Bangla Nagar\nDhaka-1207\nTelephone: 88-02-8181744\nFax: 88-02-55006781\nEmail: dcf-rims@bforest.gov.bd"
+        },
+        "Geographic description": "The database covers the whole Bangladesh",
+        "Data Content and Structure": "Detail data structure is attached in the 'Annex 01Data content and structure document of BFD'",
+        "Reference System": {
+            "Spatial reference system": "Projected Coordinate System: BUTM2010\nProjection: Transverse Mercator\nUnit: Meters (1.0)\nFalse Easting: 500000.0\nFalse Northing: 0.0\nCentra Meridian: 90\nScale Factor: 0.9996\nLatitude of Origin: 0.0\nGeographic Coordinate System: WGS 1984 \nAngular Unit:\t Degree (0.0174532925199433)\nPrime Meridian:\t Greenwich (0.0)\nDatum: D WGS 1984\nSpheroid: WGS 1984\nSemimajor Axis:\t 6378137.0\nSemiminor Axis:\t 6356752.314245179\nInverse Flattening:  298.257223563",
+            "Temporal reference system": "Reference system identifier: Gregorian Calendar"
+        },
+        "Data Quality": "(to be developed)\n(Data quality criteria and evaluation method, as defined in the “Guidelines for Data Quality” of NSDI.) ",
+        "Data Product Delivery": {
+            "Name of data formats": "ArcGIS Geodatabase and Esri Shapefile Format.",
+            "Encoding rules": "ArcGIS Geodatabase and Esri Shapefile",
+            "Language": "English"
+        },
+        "Metadata": "To be prepared according to Guidelines for Metadata (NSDI)"
+    },
+    {
+        "Organization": "Bangladesh Meteorological Department (BMD)",
+        "Overview": {
+            "Title": "Data Product Specifications on Meteorological Data of Bangladesh Meteorological Department (BMD)",
+            "Date": "30-Sep-2021",
+            "Responsible Organization": "Bangladesh Meteorological Department (BMD)",
+            "Language": "English",
+            "Topic Category": "Meteorology",
+            "Document Format": "Microsoft Word",
+            "Objectives": "BMD is responsible for maintaining the network of surface and upper air observatories, radar and satellite stations, agrometeorological observatories, geomagnetic and seismological observatories, and meteorological telecommunication system of Bangladesh. There major responsibilities are as follows:\n•\tMonitor and issue forecasts and warnings of all meteorological extreme events\n•\tIssues short, medium and long-range forecasts for agricultural planning and operation\n•\tProvide Flood Forecasting and Warning Centre meteorological information for the operation of flood forecasting and warning system\n•\tProvides seismological information\n•\tCater all International and Domestic airlines, VVIP and VIP flights\n•\tSupply and facilitate the application of climate data and information to the Government and private agencies\n•\tBMD is involved with WMO’s science-based monitoring of the changevariability of climate",
+            "Extent of the data": "Spatial extent of the data is whole Bangladesh. The Geographic coordinate system of the database is as follows \nProjection: WGS 1984\n•\tTop: 26.634395 dd\n•\tBottom: 20.641547 dd\n•\tLeft: 88.010569 dd\n•\tRight: 92.627508 dd",
+            "Normative References": "Guidelines for Data Product Specifications (NSDI)\nGuidelines for Data Quality (NSDI)\nGuidelines for Metadata (NSDI)"
+        },
+        "Scope": {
+            "Scope identification": "The meteorological information is used by various users. Detailed list of the BMD’s data users is provided in Annex 2.(BMD)",
+            "Hierarchical level": "Root level to scope level hierarchy"
+        },
+        "Data Product Identification": {
+            "Name": "Data Product Specifications of BMD",
+            "Date of Data Creation": "NA",
+            "Contact information": "Bangladesh Meteorological Department\nMeteorological Complex \nAgargaon, Dhaka-1207, Bangladesh\nPhone: +880 2 9123838, 9135742, 9141437\nFax: +880 2 58152019, 9119230, 9103908,\ne-mail: info@bmd.gov.bd, swc@bmd.gov.bd\n"
+        },
+        "Geographic description": "The data covers whole Bangladesh. \n",
+        "Data Content and Structure": "Detail data structure is attached in the 'Annex 01Data content and structure document of BMD'",
+        "Reference System": {
+            "Spatial reference system": "Geographic Coordinate System\t: Everest 1830\nAngular Unit: Degree (0.0174532925199433)\nPrime Meridian: Greenwich (0.0)\nDatum: D Everest 1830\nSpheroid: Everest 1830\nSemimajor Axis: 6377299.36\nSemiminor Axis: 6356098.35162804\nInverse Flattening:300.8017",
+            "Temporal reference system": "Reference system identifier: Gregorian Calendar"
+        },
+        "Data Quality": "In future ‘Data Quality’ will be developed as final ‘Guidelines for Data Quality’ of NSDI",
+        "Data Product Delivery": {
+            "Name of data formats": "ArcGIS Shapefile",
+            "Structure of data set": "Detail of data set structure can be found in Annex1(BMD)",
+            "Encoding rules": "ArcGIS ShapefileFeature Class",
+            "Language": "English"
+        },
+        "Metadata": "To be prepared according to Guidelines for Metadata (NSDI)\n"
+    },
+    {
+        "Organization": "Bangladesh Power Development Board (BPDB)",
+        "Overview": {
+            "Title": "Data Product Specifications on Geospatial Database of BPDB",
+            "Date": "NA",
+            "Responsible Organization": "Bangladesh Power Development Board (BPDB)",
+            "Language": "English",
+            "Topic Category": "Electric Utility",
+            "Document Format": "Microsoft Word",
+            "Objectives": "Geospatial Database of BPDB contains database of three categoryservices. The first one is for base map service which contains information about important feature (Hospital, Market, Bus Station etc.), structures and Land use of whole Bangladesh. The second category information is about Consumers. This service is responsible for showing connectivity from Feeder to Consumers which includes LT Poles, LT Feeder Lines, Service Points, Connectivity to Consumer Meters, Consumers. The third category contains general information. It contains general information of BPDB Regions and Electric Equipment. BPDB, who are responsible for providing uninterrupted quality power for whole Bangladesh, has developed and continuously updating this database for following purposes: \n• Engaging in implementation of the development program in power sector\n• Adopting modern technology and ensure optimum utilization of the primary and alternative source\n• Purchase power as a Single Buyer from power producers\n• Provide reliable power supply to customers. ",
+            "Extent of the data": "Spatial extent of different category is dissimilar. The database covers a significant portion of Bangladesh. The full spatial extent of the different categories is given below:\n• Spatial extent of General Information\nXMin: 89.71533736300006YMin: 21.288984173000074\nXMax: 92.50393453100008\nYMax: 25.303526857000065\n• Spatial extent of Consumers\nXMin: 88.00000001000006\nYMin: 20.555555550000065\nXMax: 92.04671830900008\n  YMax: 24.536777778000044\n• Spatial Extent of Basemap\nXMin: 90.47802778400006\nYMin: 21.29929667400006\nXMax: 92.07258848700008\n  YMax: 25.086412232000043",
+            "Normative References": "Electricity Act, 20l8\nPolicy Guideline for small power plant (spp) in private sector\nPrivate sector Power generation policy of Bangladesh\nEnergy Regulatory Commission Act\nGuidelines for Data Product Specifications (NSDI)\nGuidelines for Data Quality (NSDI)\nGuidelines for Metadata (NSDI)"
+        },
+        "Scope": {
+            "Scope identification": "Data Product Specifications on Geospatial database of BPDB",
+            "Hierarchical level": "Root level to national level"
+        },
+        "Data Product Identification": {
+            "Name": "Geospatial database of BPDB",
+            "Date of Data Creation": "NA",
+            "Contact information": "WAPDA Bhaban (1st Floor), Motijheel CA, Dhaka-1000\nE-mail: chairman@bpdb.gov.bd\nPhone: 9566061-5, 9566170-9, Ext-401\nOffice : 9562154"
+        },
+        "Geographic description": "The spatial extent of database is not similar. It covers a certain extent of Bangladesh. \n",
+        "Data Content and Structure": "Detail data structure is attached in the 'Annex 01 Data content and structure document of BPDB'",
+        "Reference System": {
+            "Spatial reference system": "GCS: WGS_1984\nAngular Unit: Degree (0.0174532925199433)Prime Meridian: Greenwich (0.0)\nDatum: D WGS 1984\nSpheroid: WGS 1984\nSemimajor Axis: 6378137.0\nSemiminor Axis: 6356752.314245179\nInverse Flattening: 298.257223563",
+            "Temporal reference system": "Reference system identifier: Gregorian Calendar"
+        },
+        "Data Quality": "(to be developed)\n(Data quality criteria and evaluation method, as defined in the “Guidelines for Data Quality” of NSDI.) ",
+        "Data Product Delivery": {
+            "Name of data formats": "ArcGIS Shapefile format",
+            "Structure of data set": "ArcGIS Shapefile\nFeature Class",
+            "Encoding rules": "None",
+            "Language": "English"
+        },
+        "Metadata": "Metadata will be created by utilizing the “Guidelines for Metadata” of NSDI."
+    },
+    {
+        "Organization": "Bangladesh Rural Electrification Board (BREB)",
+        "Overview": {
+            "Title": "Mapping the Rural Electric Network of 80 PBSs under BREB",
+            "Date": "4-Mar-2021",
+            "Responsible Organization": "Bangladesh Rural Electrification Board (BREB)",
+            "Language": "English",
+            "Topic Category": "Rural Electric Utility",
+            "Document Format": "Microsoft Word",
+            "Objectives": "To prepare Electric network (both 33kv source line and 11kv to below distribution line) map for ensuring better service to the consumers and system automation.",
+            "Extent of the data": "80 PBS’s (all over Bangladesh except DPDC, DESCO, WZPDCL, NESCO area which have mostly metropolitan status)",
+            "Normative References": "1. “Development and Management of GIS for PBS Service Area (PBS INSTRUCTION 100-60)” Annex-01\n2. “Procurement of GIS Developer Consultant (PBS INSTRUCTION 100-62)” Annex 02\n3. “Procurement of GIS Updating Consultant (PBS INSTRUCTION 100-63)” Annex 03\n4. Guidelines for Data Product Specifications (Prepared by JICA under NSDI Project)\n5. Guidelines for Data Quality (Prepared by JICA under NSDI Project)\n6. Guidelines for Metadata (Prepared by JICA under NSDI Project)"
+        },
+        "Scope": {
+            "Scope identification": "Data Product Specification on Rural Electric network map of 80 PBSs under Bangladesh Rural Electrification Board (BREB).",
+            "Hierarchical level": "Root level to National level (rural areas only)."
+        },
+        "Data Product Identification": {
+            "Name": "Mapping the Rural Electric Network of 80 PBSs under BREB",
+            "Date of Data Creation": "2019-20",
+            "Contact information": "SE (GIS) office, Bangladesh Rural Electrification Board (BREB), Khilkhet, Niketon, Dhaka. \nTel: 02-8900645\nMob: 01712425386\nElamil: gisdiv.reb@gmail.com URL: www.reb.gov.bd"
+        },
+        "Geographic description": "80 PBS’s (all over Bangladesh except DPDC, DESCO, WZPDCL, NESCO area which have mostly metropolitan status)\n",
+        "Data Content and Structure": "Refer BREB PBS Data Structure Document attached as Annex 04.",
+        "Reference System": {
+            "Spatial reference system": "WGS84",
+            "Temporal reference system": "Reference system identifier: Gregorian Calendar"
+        },
+        "Data Quality": "to be developed\n(Data quality criteria and evaluation method, as defined in the “Guidelines for Data Quality”.)\n(The DPS creator may refer the other official document on the data quality.)",
+        "Data Product Delivery": {
+            "Name of data formats": "ArcGIS GDBshapefile format",
+            "Structure of data set": "Refer to the BREB PBS Data Structure Document attached as Annex 04. At present Admin Boundary (Layer No 1 to 7) and Existing Electric Distribution Lines (Layer No 21 to 25) are available as delivery files.",
+            "Encoding rules": "Shapefile and Geodatabase",
+            "Language": "English"
+        },
+        "Metadata": "Rules of metadata are not followed but the need basis metadata is stored in word document or in excel spreadsheet. However, the present available metadata document is added as Annex 05 (Census sheet of datasets for NSDI)."
+    },
+    {
+        "Organization": "Bangladesh Telecommunication Regulatory Commission (BTRC)",
+        "Overview": {
+            "Title": "Telecommunications Network of BTRC",
+            "Date": "30-Sep-2021",
+            "Responsible Organization": "Bangladesh Telecommunication Regulatory Commission (BTRC)",
+            "Language": "English",
+            "Topic Category": "Telecommunications",
+            "Document Format": "Microsoft Word",
+            "Objectives": "The database is required for GIS based mapping for facilitating connecting the unconnected through proper policy mechanism.",
+            "Extent of the data": "Spatial extent of the data is as follows:\nThe Geographic Coordinate System is WGS 1984 \nTop: 24.195600 dd\nBottom: 22.646600 dd\nLeft: 89.759600 dd\nRight: 91.207600 dd",
+            "Normative References": "•\tTelecommunication Act 2001\n•\tTelecommunication Policy 2018\n•\tGuidelines for Data Product Specifications (NSDI)\n•\tGuidelines for Data Quality (NSDI)\n•\tGuidelines for Metadata (NSDI)"
+        },
+        "Scope": {
+            "Scope identification": "Data Product Specifications on Telecommunications Network of BTRC.",
+            "Hierarchical level": "Root level to national level hierarchy"
+        },
+        "Data Product Identification": {
+            "Name": "Data Product Specifications on Telecommunications Network of Bangladesh Telecommunication Regulatory Commission (BTRC) ",
+            "Date of Data Creation": "2017 to preset date (2021). New data is continuously adding to the database. ",
+            "Contact information": "Engineering & Operations Division\nBangladesh Telecommunication Regulatory Commission (BTRC)\nIEB Bhaban (5,6 & 7 floor)\nRamna, Dhaka-1000\nPhone (PABX): + 880 2 9611111\nFax: +880 2 9556677\nEmail: btrc@btrc.gov.bd"
+        },
+        "Geographic description": "The database covers almost the whole country",
+        "Data Content and Structure": "Detail data structure is attached in the annex 01 (BTRC)",
+        "Reference System": {
+            "Spatial reference system": "Geographic Coordinate System: WGS 1984\nAngular Unit: Degree (0.0174532925199433)\nPrime Meridian: Greenwich (0.0)\nDatum: D WGS 1984\nSpheroid: WGS 1984\nSemimajor Axis: 6378137.0\nSemiminor Axis: 6356752.314245179\nInverse Flattening: 298.257223563",
+            "Temporal reference system": "Reference system identifier: Gregorian Calendar"
+        },
+        "Data Quality": "(to be developed)\n(Data quality criteria and evaluation method, as defined in the “Guidelines for Data Quality” of NSDI.) ",
+        "Data Product Delivery": {
+            "Name of data formats": "ArcGIS Shapefile",
+            "Structure of data set": "Detail of data set structure can be found in Annex1 (BTRC)",
+            "Encoding rules": "ArcGIS Shapefile",
+            "Language": "English"
+        },
+        "Metadata": "To be prepared according to Guidelines for Metadata (NSDI)"
+    },
+    {
+        "Organization": "Bangladesh Water Development Board (BWDB)",
+        "Overview": {
+            "Title": "Data Product Specifications on BWDB Hydrological Measurement Stations ",
+            "Date": "30-Sep-2021",
+            "Responsible Organization": "Bangladesh Water Development Board (BWDB)",
+            "Language": "English",
+            "Topic Category": "Hydrological Measurement Stations",
+            "Document Format": "Microsoft Word",
+            "Objectives": "The geographic information of BWDB hydrologic measurement division is used for map generation for reports, interpret and prepare necessary graphs for decision making and data dissemination.",
+            "Extent of the data": "The data covers whole Bangladesh",
+            "Normative References": "Guidelines for Data Product Specifications (BWDB and JICA)\nGuidelines for Data Quality (BWDB and JICA)\nGuidelines for Metadata (BWDB and JICA)"
+        },
+        "Scope": {
+            "Scope identification": "Data Product Specifications on BWDB Hydrological Measurement Stations",
+            "Hierarchical level": "Root level in the scope level hierarchy"
+        },
+        "Data Product Identification": {
+            "Name": "BWDB Hydrological Measurement Stations",
+            "Date of Data Creation": "1-Sep-2021",
+            "Contact information": "Central GIS Directorate\nBangladesh Water Development Board\nPani Bhaban, Level-7, Room-713, 72 Green road, Dhaka\nTEL: +880-2222230124\nE-mail: gis.bwdb@gmail.com, se.gis@bwdb.gov.bd\nURL: https:gis.bwdb.gov.bd"
+        },
+        "Geographic description": "Whole Bangladesh",
+        "Data Content and Structure": "Detail data structure is attached in the annex 01 (BWDB)",
+        "Reference System": {
+            "Spatial reference system": "Geographic Coordinate System: WGS 1984\n\tWKID: 4326\n\tAuthority: EPSG\n\tAngular Unit: Degree (0.0174532925199433)\n\tPrime Meridian: Greenwich (0.0)\n\tDatum: D WGS 1984\n\tSpheroid: WGS 1984\n\tSemimajor Axis: 6378137.0\n\tSemiminor Axis: 6356752.314245179\n\tInverse Flattening: 298.257223563",
+            "Temporal reference system": "Reference system identifier: Gregorian Calendar"
+        },
+        "Data Quality": "(to be developed)\nISO 19113:2002",
+        "Data Product Delivery": {
+            "Name of data formats": "ArcSDE Enterprise Geodatabase, PostgreSQL-13 Enterprise Database with PostGIS Extension",
+            "Structure of data set": "The structure of the dataset is along with the data content and structure described above",
+            "Encoding rules": "UTF-8",
+            "Language": "English"
+        },
+        "Metadata": "The metadata document of BWDB Hydrological Measurement Stations is attached as annex 02."
+    },
+    {
+        "Organization": "Department of Agricultural Extension (DAE)",
+        "Overview": {
+            "Title": "Data Product Specifications on Upazila wise Cropping pattern data of DAE",
+            "Date": "30-Sep-2021",
+            "Responsible Organization": "Department of Agricultural Extension (DAE)",
+            "Language": "English",
+            "Topic Category": "Agriculture",
+            "Document Format": "Microsoft Word",
+            "Objectives": "The database provides upazila wise cropping pattern statistics. DAE is responsible for providing eco-friendly, sustainable agricultural practices to ensure food security and commercial agriculture. It also provides crop related field statistics to Ministry of Agriculture for national level decision making. Furthermore, the database helps to provide location specific, demand responsive and integrated extension services to all categories farmers.",
+            "Extent of the data": "Upazilas of Bangladesh. \nThe projection system is BTM:\nTop: 946,645.437500 m\nBottom: 278,285.875000 m\nLeft: 298,726.500000 m\nRight: 778,352.000000 m",
+            "Normative References": "New Agricultural Extension Policy (NAEP)\nDAE Agricultural Extension Manual\nGuidelines for Data Product Specifications (NSDI)\nGuidelines for Data Quality (NSDI)\nGuidelines for Metadata (NSDI)"
+        },
+        "Scope": {
+            "Scope identification": "Data Product specification on Upazila wise Cropping pattern data of DAE",
+            "Hierarchical level": "Upazila level to national level"
+        },
+        "Data Product Identification": {
+            "Name": "Upazila wise Cropping pattern data of DAE",
+            "Date of Data Creation": "NA",
+            "Contact information": "Dr. Farida Perveen (MS & PhD, Japan)\nDeputy Director (Project Implementation & Evaluation)\nIn-charge of GIS & RS Lab\nDepartment of Agricultural Extension (DAE)\nMinistry of Agriculture, Bangladesh\n Cell: +88-01741240156\nE-mail: perveengis@gmail.com\nWeb: www.dae.gov.bd"
+        },
+        "Geographic description": "Upazilas of whole land of Bangladesh",
+        "Data Content and Structure": "Detail data structure is attached in the annex 01 (DAE)",
+        "Reference System": {
+            "Spatial reference system": "Projected Coordinate System: Bangladesh Transverse Mercator\nProjection:\t        Transverse_Mercator\n Projection parameters:\n False_Easting: 500000\n False_Northing: -2000000\n Central_Meridian:\t90\n Scale_Factor: \t0.9996\n Latitude_Of_Origin:\t 0\n  Linear Unit: Meter (1.0)\n Geographic Coordinate System: GCS_Everest_1830\nAngular Unit: Degree (0.0174532925199433)\nPrime Meridian:      Greenwich (0.0)\nDatum: D_Everest_1830\nSpheroid: Everest_1830\nSemimajor Axis: 6377299.36\nSemiminor Axis: 6356098.352\nInverse Flattening:\t300.8017",
+            "Temporal reference system": "Reference system identifier: Gregorian Calendar"
+        },
+        "Data Quality": "DAE is responsible for making annual crop production target and area estimation for different crops. Area estimation under different crops is calculated based on eye estimation by SAAOs and crop production data is collected through field visit. The data is then aggregated hierarchically to the national level. The data aggregation hierarchy is given in Annex 2(DAE). ",
+        "Data Product Delivery": {
+            "Name of data formats": "ArcGIS Shapefile format",
+            "Structure of data set": "Detail structure of the dataset can be found in Annex1 (DAE)",
+            "Encoding rules": "ArcGIS Shapefile\nFeature Class",
+            "Language": "English"
+        },
+        "Metadata": "To be prepared according to Guidelines for Metadata (NSDI)"
+    },
+    {
+        "Organization": "Dhaka Electric Supply Company Limited (DESCO)",
+        "Overview": {
+            "Title": "Data Product Specifications on Electric Utility Network of DESCO",
+            "Date": "5-Sep-2021",
+            "Responsible Organization": "Dhaka Electric Supply Company Limited (DESCO)",
+            "Language": "English",
+            "Topic Category": "Electric Utility Network ",
+            "Document Format": "Microsoft Word",
+            "Objectives": "This is an electric utility related GIS database which was designed and developed for planning, customer support, system operation and maintenance of distribution system networks in the Northern parts of Dhaka City and Tongi Town of Gazipur District. The geodatabase and the map centric IT services are available online for real-time customer support activities.",
+            "Extent of the data": "DESCO, is a public limited company which distributes electricity at the Northern parts of Dhaka City and Tongi Town of Gazipur District. \nProjection system is WGS 1984 UTM Zone 46N and its spatial extend is as follows:\n•\tTop - 2,648,988.968700 meter\n•\tBottom - 2,629,933.324900 meter\n•\tLeft - 228,458.590500 meter\n•\tRight - 249,955.805900 meter ",
+            "Normative References": "DESA Act 1990\nGuidelines for Data Product Specifications (NSDI)\nGuidelines for Data Quality (NSDI)\nGuidelines for Metadata (NSDI)"
+        },
+        "Scope": {
+            "Scope identification": "This is an electric utility related GIS database which was designed and developed for facilitating the customer services and monitoring work of DESCO. Different map centric It based services will be developed from this data.",
+            "Hierarchical level": "Root level to northern part of the capital city of Dhaka and adjoining townships of Tongi of Gazipur District.\n"
+        },
+        "Data Product Identification": {
+            "Name": "Data Product Specifications on Electric Utility Network of DESCO",
+            "Date of Data Creation": "2019 to present date (2021)",
+            "Contact information": "Engr. Shamim Ahsan Chowdhury\nPD GIS Project DESCO\nEmail: shamim@desco.org.bd\nPlot no. 22B, Kobi Forrukh Soroni, Nikunja-2, Uttara, Dhaka\nPABX:+88 02 8900110-11; 8900810-11. \nFax:88-02-8900100"
+        },
+        "Geographic description": "The service area of DESCO is approximately 400 square kilometer which consists of Mirpur, Pallabi, Kafrul, Kallyanpur, Cantonement, Gulshan, Banani, Mohakhali, Uttara, Uttarkhan, Dokkhinkhan, Baridhara, Badda, Tongi and Purbachal. ",
+        "Data Content and Structure": "Detail data structure is attached in the annex 01 (DESCO)",
+        "Reference System": {
+            "Spatial reference system": "Projection System:    WGS 1984 UTM Zone 46N\nProjection:\t Transverse Mercator\nProjection parameters\nFalse Easting:\t500000.0\nFalse Northing:\t0.0\nCentral Meridian:\t93.0\nScale Factor:\t0.9996\nLatitude Of Origin: 0\nLinear Unit:  Meter (1.0)\t\nGeographic Coordinate System:  WGS 1984\nAngular Unit:\tDegree (0.0174532925199433)\nPrime Meridian:\tGreenwich (0.0)\nDatum:\t         D WGS 1984\nSpheroid:\tWGS 1984\nSemimajor Axis:\t6378137.0\nSemiminor Axis:\t6356752.314245179\nInverse Flattening: 298.257223563",
+            "Temporal reference system": "Reference system identifier: Gregorian Calendar"
+        },
+        "Data Quality": "(To be developed)\n(Data quality criteria and evaluation method, as defined in the “Guidelines for Data Quality” of NSDI.) \n(The DPS creator may refer the other official document in this data quality section.)\n",
+        "Data Product Delivery": {
+            "Name of data formats": "ArcGIS Enterprise Geodatabase format",
+            "Structure of data set": "Same as data content and structure document provided as Annex 01 (DESCO)",
+            "Encoding rules": "ArcGIS Enterprise Geodatabase format. ",
+            "Language": "English"
+        },
+        "Metadata": "A metadata guideline for DESCO will be created with the help of NSDI metadata guideline.\n"
+    },
+    {
+        "Organization": "Land Record and survey Department (DLRS)",
+        "Overview": {
+            "Title": "Data Product Specifications on Mouza Map of Land Record and Survey Department (DLRS)",
+            "Date": "NA",
+            "Responsible Organization": "Land Record and survey Department (DLRS)",
+            "Language": "English",
+            "Topic Category": "Land Parcel mapping",
+            "Document Format": "Microsoft Word",
+            "Objectives": "DLRS aims to develop modern Land Records Surveys and management system of Bangladesh by digitalization of existing system. The major purposes for which the geospatial data is utilized are as follows:  \n•\tTo prepare Mouza Map of the whole country periodically\n•\tTo prepare, print, reprint, and publication of Map of each thana Upazila, district\n•\tTo establish control point for preparing Mouza Map\n•\tTo determine the country's international borders\n•\tFor conflict resolution of Inter-district and inter upazila  thana boundary demarcation.\n•\tTo do feasibilities studies of technical and geographical acceptability for the creation of new District  Thana.",
+            "Extent of the data": "The data covers whole Bangladesh, the spatial extent is as below (The extend is calculated based on Geographic Coordinate System: Everest Modified): \nTop: 26.634124 dd\nBottom: 20.589610 dd\nLeft: 88.010719 dd\nRight: 92.683122 dd\n",
+            "Normative References": "Guidelines for Data Product Specifications (NDSI)\nGuidelines for Data Quality (NSDI)\nGuidelines for Metadata (NSDI)"
+        },
+        "Scope": {
+            "Scope identification": "Mouza Map of Land Record and Survey Department (DLRS)",
+            "Hierarchical level": "Root level to the National Level. "
+        },
+        "Data Product Identification": {
+            "Name": "Data Product Specifications on Mouza Map of Land Record and Survey Department (DLRS)",
+            "Date of Data Creation": "The database is created from the previous cadastral surveys:\nCS (Cadastral Survey): 1888 to 1940 (excluding Sylhet, CS survey of Sylhet was carried out from 1950 to 1963)\nSA (State acquisition survey): 1956 to 1962 \nRS (Revision Survey): 50 years after the CS Survey\nBS (Bangladesh Survey): 1970 till date\nCity Survey: 1999 to 2000",
+            "Contact information": "Mohd Moniruzzaman (Deputy Secretary)\nDeputy Director (Survey)\nDepartment of Land Records and Surveys\nPhone (Office): +88-02-8170063\nE-mail: dds@dlrs.gov.bd\nFax: +88-02-9122849"
+        },
+        "Geographic description": "The database covers entire Bangladesh",
+        "Data Content and Structure": "Detail data structure is attached in the annex 01 (DLRS)",
+        "Reference System": {
+            "Spatial reference system": "The database is projected using Cassini Projection. To cover entire Bangladesh 17 different Projected Coordinate System of Cassini is used. A detail of all 17 PCS is provided in Annex 2. \n      The Geographic Coordinate System for the data is: Everest Modified\n      Angular Unit        Degree (0.0174532925199433)\n      Prime Meridian      Greenwich (0.0)\n      Datum\t        D Everest Modified\n      Spheroid\t        Everest 1830 Modified\n      Semimajor Axis\t6377304.063\n      Semiminor Axis\t6356103.038993155\n      Inverse Flattening\t300.8017",
+            "Temporal reference system": "Reference system identifier: Gregorian Calendar"
+        },
+        "Data Quality": "To be developed as per final ‘Guidelines for Data Quality of NSDI’",
+        "Data Product Delivery": {
+            "Name of data formats": "ArcGIS Shapefile format",
+            "Structure of data set": "ArcGIS Shapefile",
+            "Encoding rules": "ArcGIS Shapefile",
+            "Language": "English"
+        },
+        "Metadata": "To be developed as per final ‘Guidelines for Metedata of NSDI’."
+    },
+    {
+        "Organization": "Dhaka Mass Transit Company Limited (DMTCL)",
+        "Overview": {
+            "Title": "Data Product Specifications on GIS data for Mass Rapid Transit (MRT) of DMTCL",
+            "Date": "18-Nov-2021",
+            "Responsible Organization": "Dhaka Mass Transit Company Limited (DMTCL)",
+            "Language": "English",
+            "Topic Category": "Mass Rapid Transit (MRT)",
+            "Document Format": "Microsoft Word",
+            "Objectives": "Mass Rapid Transit (MRT) or Metrorail is a state-of-the-art public transport system capable of transporting more passengers together by rail for metropolitan and adjoining areas. MRT or Metrorail is a long-distance, safe, reliable, air-conditioned, time-efficient, electric and eco-friendly public transport consisting of elevated or underground or a combination of elevated and underground. Metrorail will play a major role in reducing traffic congestion in the densely populated metropolis, Dhaka. Metrorail stations are located at a distance of less than one kilometer, so the public can walk to the metro station within 500 (five hundred) meters of the station.\nThe government intends to build a strong network of 6 (six) metrorail lines in Dhaka metropolis and adjoining areas with a total length of 127.641 km (elevated 8.569 km and underground 61.162 km), 104 stations (elevated 51 and underground 53) and adopted a time bound action plan 2030.",
+            "Extent of the data": "Six Mass Rapid Transit (MRT) or Metro Rail routes covering the distance of 127.641 Kilometers having 104 Stations in Dhaka city and its adjoining areas. However, as of 2021, the metro rail system of Dhaka consists of one line referred to as the MRT (Mass Rapid Transit) Line-6, with other metro rail lines going to be added in the future.",
+            "Normative References": "Revision and Updating of the Strategic Transport Plan for Dhaka\nGuidelines for Data Product Specifications (NSDI)\nGuidelines for Data Quality (NSDI)\nGuidelines for Metadata (NSDI)"
+        },
+        "Scope": {
+            "Scope identification": "Data Product Specifications on GIS data of Mass Rapid Transit (MRT) of Dhaka city ",
+            "Hierarchical level": "Root level to metropolitan level hierarchy"
+        },
+        "Data Product Identification": {
+            "Name": "Data Product Specifications on GIS data for Mass Rapid Transit (MRT) of DMTCL",
+            "Date of Data Creation": "From 03 June 2013 to present date (2021)",
+            "Contact information": "Shaikh Khalilur Rahman\nProject Manager (Deputy Sect.), DMTCL\nTEL: 01761480487\nE-mail: khalilur_rahman2007@yahoo.com"
+        },
+        "Geographic description": "The absolute extends of the proposed six MRT lines for Dhaka city is as follows:\nTop: 23.99744, 90.41989 (dd)\nBottom: 23.62401, 90.49985 (dd)\nLeft: 23.84352, 90.25596 (dd)\nRight: 23.82606, 90.55131 (dd)",
+        "Data Content and Structure": "Detail data structure is attached in the annex 01",
+        "Reference System": {
+            "Spatial reference system": "Projection: World Geodetic System (WGS 1984)\nProjection parameters:\n\tGeographic Coordinate System: WGS 1984\n\tWKID: 4326\n\tAuthority: EPSG\n\tAngular Unit: Degree (0.0174532925199433)\n\tPrime Meridian: Greenwich (0.0)\n\tDatum: D WGS 1984\n\tSpheroid: WGS 1984\n\tSemimajor Axis: 6378137.0\n\tSemiminor Axis: 6356752.314245179\n\tInverse Flattening: 298.257223563",
+            "Temporal reference system": "Reference system identifier: Gregorian Calendar"
+        },
+        "Data Quality": "To be developed. In future DMTCL will develop a data quality guideline by adapting the Data Quality Guideline of NSDI.",
+        "Data Product Delivery": {
+            "Name of data formats": "ArcGIS Shapefile format and Comma Separated Value (CSV) file format",
+            "Structure of data set": "ArcGIS Shapefile",
+            "Encoding rules": "ArcGIS Shapefile",
+            "Language": "English"
+        },
+        "Metadata": "DMTCL will generate the metadata information in future by following the guideline of NSDI."
+    },
+    {
+        "Organization": "Department of Environment (DOE)",
+        "Overview": {
+            "Title": "Geospatial data of Department of Environment",
+            "Date": "15-Nov-2021",
+            "Responsible Organization": "Department of Environment (DOE)",
+            "Language": "English",
+            "Topic Category": "Environmental & Conservation",
+            "Document Format": "Microsoft Word",
+            "Objectives": "To ensure sustainable environmental governance for achieving high quality of life for the benefit or present and future generations.",
+            "Extent of the data": "The data is served for all over Bangladesh. It’s extended is from 20˚ 34ʼN to 26˚ 38ʼN latitude and from 88˚ 01ʼE to 92˚ 41ʼE longitude.",
+            "Normative References": "•\t“Poribesh Aain Songkolon 1-100” \n•\tGuidelines for Data Product Specifications (NSDI)\n•\tGuidelines for Data Quality (NSDI)\n•\tGuidelines for Metadata (NSDI)"
+        },
+        "Scope": {
+            "Scope identification": "Data Product Specification for Department of Environment (DOE)",
+            "Hierarchical level": "Root level in the scope level hierarchy (Bangladesh Mauza Level to national level)"
+        },
+        "Data Product Identification": {
+            "Name": "Data Product Specifications on Geospatial data of DoE",
+            "Date of Data Creation": "2017 (July) – 2018 (June)",
+            "Contact information": "Farid Ahmed (Director, IT)\nDepartment of Environment (6th Floor)\nEmail: farid@doe.gov.bd  Phone:  +880 01552340673\nAddress: Paribesh Bhaban, E16 Agargaon, Sher-e-Bangla Nagar, Dhaka-1207"
+        },
+        "Geographic description": "NA",
+        "Data Content and Structure": "Detail data structure is attached in the Annex 01",
+        "Reference System": {
+            "Spatial reference system": "Reference system identifier: WGS 1984\n\tGeographic Coordinate System: WGS 1984\n\tWKID: 4326\n\tAuthority: EPSG\n\tAngular Unit: Degree (0.0174532925199433)\n\tPrime Meridian: Greenwich (0.0)\n\tDatum: D WGS 1984\n\tSpheroid: WGS 1984\n\tSemimajor Axis: 6378137.0\n\tSemiminor Axis: 6356752.314245179\n\tInverse Flattening: 298.257223563",
+            "Temporal reference system": "Reference system identifier: Gregorian Calendar"
+        },
+        "Data Quality": "Data was not cross checked. Field representatives of DOE were present during data collection.",
+        "Data Product Delivery": {
+            "Name of data formats": "Esri Shapefile format.",
+            "Structure of data set": "GIS Data is stored and managed in Esri Shapefile format. Major layersShapefiles are as follows:\n•\tKiln (Point)\n•\tLGED River Arc (Polyline)\n•\tLGED River (Polygon)\n•\tLGED Road Arc (Polyline)\n•\tLGED Settlements (Polygon)\n•\tLULC DD (polygon)",
+            "Encoding rules": "Esri Shapefile Format",
+            "Language": "English"
+        },
+        "Metadata": "Rules of metadata are not followed. Besides, a new metadata guideline for DOE will be created with the help of NSDI metadata guideline."
+    },
+    {
+        "Organization": "Dhaka Power Distribution Company (DPDC)",
+        "Overview": {
+            "Title": "Data Product Specifications on Electric Utility Network of DPDC",
+            "Date": "5-Sep-2020",
+            "Responsible Organization": "Dhaka Power Distribution Company",
+            "Language": "English",
+            "Topic Category": "Electric Utility Network ",
+            "Document Format": "Microsoft Word",
+            "Objectives": "This is an electric utility related GIS database which was designed and developed for planning, customer support, system operation and maintenance of distribution system networks in the three zones of DPDC -- North, Center and South Zones. The geodatabase and the map centric IT services are available online for real-time customer support activities.",
+            "Extent of the data": "The Dataset is for three zones of DPDC -- North, Center and South Zones. This zone consists of southern part of the capital city of Dhaka and adjoining townships of Narayangonj.\nProjection system is WGS 1984 UTM Zone 46N and its spatial extend is as follows:\n•\tTop - 2,632,797.263700 meter (23.786588 dd)\n•\tBottom - 2,608,478.308200 meter (23.564107 dd)\n•\tLeft - 227,839.165600 meter (90.329851 dd)\n•\tRight - 248,110.570100 meter (90.532350 dd)",
+            "Normative References": "DESA Act, 1990 (Annex 2)\nGuidelines for Data Product Specifications (NSDI)\nGuidelines for Data Quality (NSDI)\nGuidelines for Metadata (NSDI)"
+        },
+        "Scope": {
+            "Scope identification": "This is an electric utility related GIS database which was designed and developed for facilitating the customer services and monitoring work of DPDC. Different map centric It based services are developed from this data.",
+            "Hierarchical level": "Root level to southern part of the capital city of Dhaka and adjoining townships of Narayangonj.\n"
+        },
+        "Data Product Identification": {
+            "Name": "Data Product Specifications on Electric Utility Network of DPDC",
+            "Date of Data Creation": "Year of 2020",
+            "Contact information": "Engr. Swpan Kumar Bhowmik\nSuperintending Engineer and Project Director\nGIS Based Distribution Network System and Preparation of a 20 years Master Plan for DPDC\nCell : +8801730335309\nEmail: pd.gisdpdc@gmail.com\nKatabon office, Dhaka 1205.\nhttps:dpdc.org.bd"
+        },
+        "Geographic description": "The database covers three zones of DPDC -- North, Center and South Zones. This zone consists of southern part of the capital city of Dhaka and adjoining townships of Narayangonj.",
+        "Data Content and Structure": "Detail data structure is attached in the annex 01.",
+        "Reference System": {
+            "Spatial reference system": "Projection System:    WGS 1984 UTM Zone 46N\nProjection:\t Transverse Mercator\nProjection parameters:\nFalse Easting:\t500000.0\nFalse Northing:\t0.0\nCentral Meridian:\t93.0\nScale Factor:\t0.9996\nLatitude Of Origin: 0\nLinear Unit:  Meter (1.0)\t\nGeographic Coordinate System:  WGS 1984\nAngular Unit:\tDegree (0.0174532925199433)\nPrime Meridian: Greenwich (0.0)\nDatum: D WGS 1984\nSpheroid: WGS 1984\nSemimajor Axis: 6378137.0\nSemiminor Axis:\t6356752.314245179\nInverse Flattening: 298.257223563    ",
+            "Temporal reference system": "Reference system identifier: Gregorian Calendar"
+        },
+        "Data Quality": "(to be developed)\n(Data quality criteria and evaluation method, as defined in the “Guidelines for Data Quality”.) (The DPS creator may refer the other official document on the data quality.)\n",
+        "Data Product Delivery": {
+            "Name of data formats": "ArcGIS Enterprise Geodatabase format. ",
+            "Structure of data set": "Same as data content and structure document provided as Annex 01. ",
+            "Encoding rules": "ArcGIS Geodatabase format. ",
+            "Language": "English"
+        },
+        "Metadata": "Rules of metadata are not followed but the need basis metadata is stored in excel spreadsheet. Besides, a new metadata guideline for DPDC will be created with the help of JICA expert team.\n\t"
+    },
+    {
+        "Organization": "Dhaka South City Corporation (DSCC)",
+        "Overview": {
+            "Title": "Data Product Specifications on Geospatial Data of DSCC",
+            "Date": "NA",
+            "Responsible Organization": "Dhaka South City Corporation (DSCC)",
+            "Language": "English",
+            "Topic Category": "City development, planning and management",
+            "Document Format": "Microsoft Word",
+            "Objectives": "The administrative maplayer of DSCC is used for administrative and planning purpose by different departments of DSCC. It is also used by many other organizations and researchers.",
+            "Extent of the data": "The data is at municipality level and covers south city corporation of Dhaka, the spatial extent is as below:\n(The extend is calculated based on WGS 1984 UTM Zone 46N projection in meter unit)\n\nTop: 23.783001 dd\nBottom: 23.667957 dd\nLeft: 90.347324 dd\nRight: 90.512281 dd",
+            "Normative References": "Local Government City Corporation Act 2009\nGuidelines for Data Product Specifications (NDSI)\nGuidelines for Data Quality (NSDI)\nGuidelines for Metadata (NSDI)"
+        },
+        "Scope": {
+            "Scope identification": "Data Product Specifications on Geospatial Data of Dhaka South City Corporation (DSCC)",
+            "Hierarchical level": "Root level to the Dhaka South City Corporation area"
+        },
+        "Data Product Identification": {
+            "Name": "Geospatial Data of DSCC",
+            "Date of Data Creation": "Ward wise primary data collection (Field survey): 2003-2011. The Administrative MapBoundary of DSCC is created in October 2018 based on the primary data.",
+            "Contact information": "Dhaka South City Corporation (DSCC)\nCity Planning Division\nKazi Hasiba Jahan\nDesignation: Geographer\nOffice: Dhaka South City Corporation\nTel: 01715005931\nEmail: khzahan@yahoo.com      "
+        },
+        "Geographic description": "Dhaka South City Corporation, the south part of former Dhaka City Corporation, consists of 56 wards covering the thanas of Dhaka Kotwali, Motijheel, Sutrapur, Ramna, Bangsal, Wari, Gendaria, Chwokbazar, Lalbagh, Hazaribagh, Dhanmondi, Shahbagh, New Market, Khilgaon, Kamrangirchar and others.",
+        "Data Content and Structure": "Detail data structure is attached in the annex 01.",
+        "Reference System": {
+            "Spatial reference system": "Projection System:    WGS 1984 UTM Zone 46N\nProjection:\t Transverse Mercator\nProjection parameters:\nFalse Easting:\t500000.0\nFalse Northing:\t0.0\nCentral Meridian:\t93.0\nScale Factor:\t0.9996\nLatitude Of Origin: 0\nLinear Unit:  Meter (1.0)\t\nGeographic Coordinate System:  WGS 1984\nAngular Unit:\tDegree (0.0174532925199433)\nPrime Meridian: Greenwich (0.0)\nDatum: D WGS 1984\nSpheroid: WGS 1984\nSemimajor Axis: 6378137.0\nSemiminor Axis:\t6356752.314245179\nInverse Flattening: 298.257223563    ",
+            "Temporal reference system": "Reference system identifier: Gregorian Calendar"
+        },
+        "Data Quality": "The administrative boundary (ward boundary) is drawn upon the spatial distribution of holdings numbers of any wards. In future ‘Data Quality’ will be developed as final ‘Guidelines for Data Quality’ of NSDI.",
+        "Data Product Delivery": {
+            "Name of data formats": "ArcGIS Shapefile format",
+            "Structure of data set": "ArcGIS Shapefile",
+            "Encoding rules": "ArcGIS Shapefile",
+            "Language": "English"
+        },
+        "Metadata": "To be developed as per final ‘Guidelines for Metedata of NSDI."
+    },
+    {
+        "Organization": "Dhaka Water Supply and Sewerage Authority (DWASA)",
+        "Overview": {
+            "Title": "Data Product Specifications on the Water, Drainage and Sewerage Utility Network",
+            "Date": "8-Nov-2020",
+            "Responsible Organization": "Dhaka Water Supply and Sewerage Authority (DWASA)",
+            "Language": "English",
+            "Topic Category": "Utility Network",
+            "Document Format": "Microsoft Word",
+            "Objectives": "Water, Drainage and Sewerage Utility Network covering 11 zones of Dhaka city and part of Narayanganj city.",
+            "Extent of the data": "The data covers 11 zones of Dhaka city and part of Narayanganj city. \nSpatial extend is within \nWest: 90.329605 dd \nEast: 90.605288 dd \nNorth: 23.900176 dd \nSouth: 23.566033 dd",
+            "Normative References": "Water Supply Master Plan for Dhaka City\nGuidelines for Data Product Specifications (NSDI)\nGuidelines for Data Quality (NSDI)\nGuidelines for Metadata (NSDI)"
+        },
+        "Scope": {
+            "Scope identification": "Data Product Specification for water, drainage, and sewerage utility network data of Dhaka city and part of Narayanganj city.",
+            "Hierarchical level": "Root level in the scope level hierarchy"
+        },
+        "Data Product Identification": {
+            "Name": "Water, Drainage and Sewerage Utility Network",
+            "Date of Data Creation": "Water Utility Data: 2018\nDrainage Utility Data: 2009\nSewerage Utility Data: 2016",
+            "Contact information": "Dhaka Water Supply & Sewerage Authority\nAddress: WASA Bhaban, 7th floor (GIS Division), 98, kazi nazrul Islam Avenue, Karwan Bazar, Dhaka-1215, Bangladesh\nEmail: khalid.grid@gmail.com, khalid.grid@yahoo.com\nURL: www.dwasa.org.bd"
+        },
+        "Geographic description": "Dhaka city the Dhaka Metropolitan Area and part of Narayanganj city.",
+        "Data Content and Structure": "Detail data structure is attached in the annex 01.",
+        "Reference System": {
+            "Spatial reference system": "Reference system identifier: WGS1984, Transverse Mercator ",
+            "Temporal reference system": "Reference system identifier: Gregorian Calendar"
+        },
+        "Data Quality": "The following procedure is practiced in DWASA for checking it’s data quality:\n\n•\tWhen data is provided by vendors or field staffs; a checking is done based on the omission or commission of the features. It is checked by comparing text report statistics and number of total features in the GIS data.\n•\tFurthermore, checking is done based on consumer’s data (i.e., How many consumers are there against how many meters location)\n•\tFinally, field checking is done using hardcopy map and measuring distance from nearby landmarks. (This nearby landmark based relative locationdistance is collected during the data collection phase which is checked in this final phase).",
+        "Data Product Delivery": {
+            "Name of data formats": "ArcGIS Personal Geodatabase format, Shapefile format, ORACLE",
+            "Structure of data set": "Detail of data set structure can be found in Annex1",
+            "Encoding rules": "ArcGIS Geodatabase format",
+            "Language": "English"
+        },
+        "Metadata": "Rules of metadata are not followed but the need basis metadata is stored in excel spreadsheet. Besides, a new metadata guideline for DWASA will be created with the help of JICA expert team."
+    },
+    {
+        "Organization": "Geological Survey of Bangladesh (GSB)",
+        "Overview": {
+            "Title": "Physiographic database of Geological Survey of Bangladesh (GSB)",
+            "Date": "NA",
+            "Responsible Organization": "Geological Survey of Bangladesh (GSB)",
+            "Language": "English",
+            "Topic Category": "Geological Survey",
+            "Document Format": "Microsoft Word",
+            "Objectives": "The physiographic layers of GSB are required for several purposes:\nGeological mapping of the country, Exploration of mineral resources, Geophysical investigation, Engineering, Urban, and geotechnical surveys, Study on geo-hazards, Coastal Marine Geological Investigations, drilling activities, training, and support for public and private organizations. This data helps GSB to perform geo-scientific activities for sustainable development.",
+            "Extent of the data": "Projection: WGS 1984 UTM Zone 45N and WGS 1984 UTM Zone 46N\nThe spatial extent in respect to WGS 1984: \nTop: 26.633914 dd\nBottom: 20.587349 dd\nLeft: 88.008614 dd\nRight: 92.680115 dd",
+            "Normative References": "The Mines and Minerals Rules, 2012\nGuidelines for Data Product Specifications (NDSI)\nGuidelines for Data Quality (NSDI)\nGuidelines for Metadata (NSDI)"
+        },
+        "Scope": {
+            "Scope identification": "Data Product Specifications on physiographic Database of Geological Survey of Bangladesh",
+            "Hierarchical level": "Root level to the national level."
+        },
+        "Data Product Identification": {
+            "Name": "Physiographic Data of Bangladesh",
+            "Date of Data Creation": "Data created from 1956 to 2020 (Survey Years) at an interval of 5 years (approximately)",
+            "Contact information": "Syed Nazrul Islam\nDesignation: Director \nMobile: +8801711708237\nEmail: nazrulgsb@yahoo.com\nGeological Survey of Bangladesh, 153 Pioneer Road, Segunbagicha, Dhaka-1000.\n"
+        },
+        "Geographic description": "The database covers physiographic information of whole Bangladesh",
+        "Data Content and Structure": "Detail data structure is attached in the annex 01.",
+        "Reference System": {
+            "Spatial reference system": "WGS 1984 UTM Zone 45 and 46N\nProjection: Transverse Mercator\nProjection parameters: \n      False_Easting\t 500000.0\n      False_Northing\t 0.0\n      Central_Meridian\t 87.0 for Zone No. 45 and 97.0 for Zone No. 46\n      Scale_Factor \t 0.9996\n      Latitude_Of_Origin\t 0\n      Linear Unit\t         Meter (1.0) \nGeographic Coordinate System: WGS 1984\t\n      \n      Angular Unit        Degree (0.0174532925199433)\n      Prime Meridian\tGreenwich (0.0)\n      Datum\t         D WGS 1984\n      Spheroid\t         WGS 1984\n      Semimajor Axis\t 6378137.0\n      Semiminor Axis\t 6356752.314245179\n      Inverse Flattening\t 298.257223563",
+            "Temporal reference system": "Reference system identifier: Gregorian Calendar"
+        },
+        "Data Quality": "(to be developed)\n(Data quality criteria and evaluation method, as defined in the “Guidelines for Data Quality”.)\n(The DPS creator may refer the other official document on the data quality.)\n",
+        "Data Product Delivery": {
+            "Name of data formats": "ArcGIS Shapefile format",
+            "Structure of data set": "ArcGIS Shapefile",
+            "Encoding rules": "ArcGIS Shapefile",
+            "Language": "English"
+        },
+        "Metadata": "To be developed as per the Guidelines for Metedata of NSDI. \n"
+    },
+    {
+        "Organization": "Local Government Engineering Department (LGED)",
+        "Overview": {
+            "Title": "Data Product Specifications on Upazila Base Map 1:50,000",
+            "Date": "11-Aug-2021",
+            "Responsible Organization": "Local Government Engineering Department (LGED)",
+            "Language": "English",
+            "Topic Category": "Basemap",
+            "Document Format": "Microsoft Word",
+            "Objectives": "The Upazila basemaps covering whole land of Bangladesh including Union and Upazila road network as well as point of interest at a scale of 1:50,000 are used for people to obtain the same geographic information about the country.",
+            "Extent of the data": "Upzilas of Bangladesh",
+            "Normative References": "Guideline for implementation of rural roads and culverts maintenance program-2010\nMetadata document of LGED\nGuidelines for Data Product Specifications (LGED and JICA)\nGuidelines for Data Quality (LGED and JICA)\nGuidelines for Metadata (LGED and JICA)"
+        },
+        "Scope": {
+            "Scope identification": "Data Product Specifications on Upazila Base Map 1:50,000",
+            "Hierarchical level": "Root level in the scope level hierarchy"
+        },
+        "Data Product Identification": {
+            "Name": "Upazila base map data at a scale of 1:50,000",
+            "Date of Data Creation": "Data created from LGED Upazila Base Maps (1994-95), Landsat TM 1998, GPS Survey 1999 and field checking in 2016.",
+            "Contact information": "Local Government Engineering Department　\nTEL　 +88-02-58152802\nFAX　 +88-02-911 0512\nE-mail:  mis@lged.gov.bd\nURL: \t<https:www.lged.gov.bd>\n<https:nsdi.gov.bd>"
+        },
+        "Geographic description": "Upazilas of whole land of Bangladesh \n\n",
+        "Data Content and Structure": "Detail data structure is attached in the annex 01",
+        "Reference System": {
+            "Spatial reference system": "Projection: Lambert’s Conformal Conic (LCC)\nProjection parameters:\nFalse_Easting: 2743183.6991\nFalse_Northing: 914395.233\nCentral_Meridian: 90.0\nStandard_Parallel_1: 23.09\nStandard_Parallel_2: 28.48\nLatitude_Of_Origin: 26.0 \nLinear Unit: Meter (1.0)",
+            "Temporal reference system": "Reference system identifier: Gregorian Calendar"
+        },
+        "Data Quality": "The base map (1:50,000 scale) is compiled from SPOT Image 1989-90, Topographic Maps, Aerial Photograph1983-84, Landsat TM 1998, GPS Survey 1999, BBS Geocode, GPS Survey 1999 and field checking in 2016.",
+        "Data Product Delivery": {
+            "Name of data formats": "ArcGIS Shapefile format",
+            "Structure of data set": "ArcGIS Shapefile\nFeature Class",
+            "Encoding rules": "None",
+            "Language": "English"
+        },
+        "Metadata": "A general metadata document is prepared by LGED. The metadata document of LGED is attached as annex 02."
+    },
+    {
+        "Organization": "Palli Karma-Sahayak Foundation (PKSF)",
+        "Overview": {
+            "Title": "Geospatial data of Palli Karma-Sahayak Foundation (PKSF)",
+            "Date": "21-Nov-2021",
+            "Responsible Organization": "Palli Karma-Sahayak Foundation (PKSF)",
+            "Language": "English",
+            "Topic Category": "Development, Financing",
+            "Document Format": "Microsoft Word",
+            "Objectives": "•\tProvide financial assistance and institutional development support to appropriate organizations for implementing sustainable inclusive financial programs for reduction of poverty through creating productive employment opportunities for the moderate and ultra-poor, small, and marginal farmers and micro-entrepreneurs.\n•\tSupport, promote, develop, and identify sustainable employment opportunities for the moderate and ultra-poor, small and marginal farmers and micro-entrepreneurs; and to provide them assistance including education, health, training and risk reduction services as may be necessary for enhancing their capacity.\n•\tBuild and strengthen the institutional capacity of the POs (partner organizations) and enhance their ability to provide various financial and non-financial services to the poor on a sustainable manner.\n•\tSupport, promote and sponsor innovative programs and suitable projects for improving the quality of life of the poor and enabling them to lead a dignified life.\n•\tHelp the poor to diversify and strengthen their livelihood strategies, enhance their security, give them access to assets and rights, and augment their self-respect by providing them greater choices and independence. ",
+            "Extent of the data": "The data is served for all over Bangladesh. It extends from 20'34N to 26'38N latitude and from 88'01E to 92'41E longitude",
+            "Normative References": "•\tGuidelines for Data Product Specifications (NSDI)\n•\tGuidelines for Data Quality (NSDI)\n•\tGuidelines for Metadata (NSDI)"
+        },
+        "Scope": {
+            "Scope identification": "Data Product Specification for Palli Karma-Sahayak Foundation (PKSF).",
+            "Hierarchical level": "Root level to the scope level hierarchy"
+        },
+        "Data Product Identification": {
+            "Name": "Data Product Specifications on Geospatial data of PKSF",
+            "Date of Data Creation": "2018 to present time (2021)",
+            "Contact information": "Dr. AKM Nuruzzaman, General Manager,\nPalli Karma-Sahayak Foundation (PKSF).\nEmail:  nuruzzaman@pksf-bd.org \nPhone: +880 01714 090 461\nAddress: PKSF Bhaban, Plot: E-4B, Agargaon Administrative Area, Sher-e-Bangla Nagar, Dhaka-1207, Bangladesh"
+        },
+        "Data Content and Structure": "Detail data structure is attached in the Annex 01",
+        "Reference System": {
+            "Spatial reference system": "Reference system identifier: WGS1984",
+            "Temporal reference system": "Reference system identifier: Gregorian Calendar"
+        },
+        "Data Quality": "To be developed by following the guideline of NSDI",
+        "Data Product Delivery": {
+            "Name of data formats": "Esri Geodatabase format",
+            "Structure of data set": "GIS Data is stored and managed in Esri Shapefile Geodatabase format.\nMajor layersShapefiles are as follows:\n•\tPKSF_Maps_Sep20_PDOIRI",
+            "Encoding rules": "Esri Shapefile Geodatabase format ",
+            "Language": "English"
+        },
+        "Metadata": "Rules of metadata are not followed. Besides, a new metadata guideline for PKSF will be created with the help of NSDI metadata guideline."
+    },
+    {
+        "Organization": "Rajdhani Unnayan Kartipakkha (RAJUK)",
+        "Overview": {
+            "Title": "Data Product Specifications on Landuse of Rajuk",
+            "Date": "17-Nov-2021",
+            "Responsible Organization": "Rajdhani Unnayan Kartipakkha (RAJUK)",
+            "Language": "English",
+            "Topic Category": "Landuse, flood",
+            "Document Format": "Microsoft Word",
+            "Objectives": "RAJUK is responsible for preparation of plans (strategicmaster plan) for the city region and ensure planned development of the city. RAJUK undertakes many development projects time to time under improvement schemes. RAJUK is trying to make the capital city Dhaka – a planned, livable and environment friendly city. To fulfill the goal of achieving the planned city, RAJUK has taken initiative to make it livable through solving housing, transportation problems and creation of large-scale water based public space or open space like Hatirjheel integrated project. Most of those development work of RAJUK is self-financed but to achieve those goals of a planned city, RAJUK has a number of challenges. In future RAJUK hopes to achieve its goal through commitment and cooperation from current government and achieve active participation of conscious citizens.\nLandowner applies for Land use clearance permit. RAJUK reviews the Land Use Clearance permit application by multiple reviewers (DTP, ATP, Surveyor, Draftsman etc.) and issue permit letter. If the criteria of land use in certain area matches to the criteria and standards set by the Master planDevelopment plan, direct land use permission can be given.",
+            "Extent of the data": "The geographic coordinate system is WGS 1984 and the extent is \nTop 23.819455 dd \nBottom 23.692103 dd \nLeft 90.338560 dd \nRight 90.444602 dd",
+            "Normative References": "•\tData Content and Structure Document of RAJUK\n•\tReal Estate development & management act 2010\n•\tPrivate Housing Project Land Development Rule 2004 (amendments 2015)\n•\tDetailed Area Plan (DAP) Gazette\n•\tThe Highways Act, 1925\n•\tTown Improvement Act, 1953\n•\tImarat Nirman Bidhimala' 2008\n•\tDhaka Mahanagar Building (Construction, Development, Protection and Removal) Rule' 2008\n•\tNatural Water Body Protection and Preservation of Open space and Playground Act' 2000\n•\tGuidelines for Data Product Specifications (RAJUK and JICA)\n•\tGuidelines for Data Quality (RAJUK and JICA)\n•\tGuidelines for Metadata (RAJUK and JICA)"
+        },
+        "Scope": {
+            "Scope identification": "Data Product Specifications on Landuse of RAJUK ",
+            "Hierarchical level": "Root level in the mauza level hierarchy"
+        },
+        "Data Product Identification": {
+            "Name": "Landuse of RAJUK",
+            "Date of Data Creation": "Data created from December 2021.",
+            "Contact information": "Town Planner, Plan Preparation, RAJUK\nRajuk Bhaban, Dhaka\nTEL: 01730034019\nE-mail: dirpp@rajukdhaka.gov.bd \nURL: http:rajuk.gov.bd https:nsdi.gov.bd\n"
+        },
+        "Geographic description": "Jurisdiction of RAJUK includes four city corporation (Dhaka South City Corporation, North CC, Gazipur CC, Narayanganj CC) and Savar, Keraniganj, Rupganj. The land use characteristics are described by geographical zone and ThanaUpazila (administrative unit). There are total of 30 ThanasUpzilas in the study area, of which 22 Thanas are in Dhaka Metropolitan Area (DMA) and 8 Upzias are outside of DMA. Some Upzias outside of the MDA are not fully included in the study area, which is similar to the RAJUK administrative area. In order to understand characteristics of urbanization and land use pattern in DMA and RAJUK area, the study area is divided into six geographical zones: (1) Dhaka City Corporation Zone; (2) Eastern Fringe Zone; (3) RAJUK North Zone; (4) RAJUK South Zone; (5) RAJUK East Zone; and (6) RAJUK West Zone.",
+        "Data Content and Structure": "Detail data structure is attached in the annex 01. ",
+        "Reference System": {
+            "Spatial reference system": "Projected Coordinate System: BTM\nProjection: Transverse Mercator\nAuthority: Custom\nLinear Unit: Meters (1.0)\nFalse Easting: 500000.0\nFalse Northing: -2000000.0\nCentral Meridian: 90.0\nScale Factor: 0.9996\nLatitude of Origin: 0.0\nGeographic Coordinate System: Everest 1830\nWKID: 4042\nAuthority: EPSG\nAngular Unit: Degree (0.0174532925199433)\nPrime Meridian: Greenwich (0.0)\nDatum: D Everest 1830\nSpheroid: Everest 1830\nSemimajor Axis: 6377299.36\nSemiminor Axis: 6356098.35162804\nInverse Flattening: 300.8017",
+            "Temporal reference system": "Reference system identifier: Gregorian Calendar"
+        },
+        "Data Quality": "Currently, RAJUK does not have any data quality method to maintain. In future RAJUK will share data quality information.",
+        "Data Product Delivery": {
+            "Name of data formats": "ArcGIS Shapefile format",
+            "Structure of data set": "ArcGIS Shapefile",
+            "Encoding rules": "None",
+            "Language": "English"
+        },
+        "Metadata": "Metadata document is currently not available in RAJUK. RAJUK will manage the document and share later."
+    },
+    {
+        "Organization": "Roads and Highways Department (RHD)",
+        "Overview": {
+            "Title": "Geospatial Data of Roads and Highways Department (RHD)",
+            "Date": "30-Sep-2021",
+            "Responsible Organization": "Roads and Highways Department (RHD)",
+            "Language": "English",
+            "Topic Category": "Transportation",
+            "Document Format": "Microsoft Word",
+            "Objectives": "Since the establishment of RHD the size of the major road network in Bangladesh has grown from 2,500 kms to the present network of 22,418.95 kms. This geospatial database of RHD helps in its operation of construction and the maintenance of the major road and bridge network of Bangladesh.",
+            "Extent of the data": "Spatial extent of the data is whole Bangladesh. The Projected coordinate system of the database is BUTM2010, and spatial extent is as follows:\nTop: 2,946,872.924200 m\nBottom: 2,278,213.868700 m\nLeft: 298,486.327200 m\nRight:778,080.929900 m",
+            "Normative References": "•\tRoad Transport Act 2018\n•\tNational Land Transport Policy\n•\tGuidelines for Data Product Specifications (NSDI)\n•\tGuidelines for Data Quality (NSDI)\n•\tGuidelines for Metadata (NSDI)"
+        },
+        "Scope": {
+            "Scope identification": "Data Product Specifications on Geospatial database of Roads and Highways",
+            "Hierarchical level": "Root level to scope level hierarchy"
+        },
+        "Data Product Identification": {
+            "Name": "Geospatial Data of Roads and Highways Department (RHD)",
+            "Date of Data Creation": "NA",
+            "Contact information": "Database Division\nSarak Bhaban, Tejgaon, Dhaka\nMobile-01732-955 114"
+        },
+        "Geographic description": "Road and Highway network information for whole Bangladesh",
+        "Data Content and Structure": "Detail data structure is attached in the annex 01.",
+        "Reference System": {
+            "Spatial reference system": "BUTM2010\n      Projection\t      Transverse Mercator\n      Projection parameters\n      Authority\t\tCustom\n      False_Easting\t 500000.0\n      False_Northing\t 0.0\n      Central_Meridian\t 90.0\n      Scale_Factor \t 0.9996\n      Latitude_Of_Origin\t 0.0\n      Linear Unit\t         Meter (1.0)\n      Geographic Coordinate System\t\n      WGS 1984\n      Angular Unit \tDegree (0.0174532925199433)\n      Prime Meridian\tGreenwich (0.0)\n      Datum\t        D WGS 1984\n      Spheroid\t        WGS 1984\n      Semimajor Axis\t6378137.0\n      Semiminor Axis\t6356752.314245179\n      Inverse Flattening\t298.257223563      ",
+            "Temporal reference system": "Reference system identifier: Gregorian Calendar"
+        },
+        "Data Quality": "GIS data was updated using on field road survey and Chainage Survey (Road inventory Road Condition Traffic Survey Bridge Inventory Data). Later this data is rechecked with the Base map and by calculating road length in GIS software",
+        "Data Product Delivery": {
+            "Name of data formats": "ArcGIS Shapefile or Geodatabase ",
+            "Structure of data set": "Detail of data set structure can be found in Annex1",
+            "Encoding rules": "ArcGIS Shapefile or Geodatabase",
+            "Language": "English"
+        },
+        "Metadata": "To be prepared according to Metadata Guidelines of NSDI"
+    },
+    {
+        "Organization": "Survey of Bangladesh (SOB)",
+        "Overview": {
+            "Title": "Divisional City Surrounding 1:5000 Scale",
+            "Date": "29-Nov-2021",
+            "Responsible Organization": "Survey of Bangladesh (SOB)",
+            "Language": "English",
+            "Topic Category": "Base Map",
+            "Document Format": "Microsoft Word",
+            "Objectives": "The Survey of Bangladesh (SOB) is the national mapping authority of Bangladesh. The agency functions under the Ministry of Defense and is headed by the Surveyor General of Bangladesh. It aims to prepare and provide topographical maps  data in different scales. Establishment of online portal so users can view or download various maps. It is to be noted that the Directorate of Bangladesh Surveys has been printing the map according to the needs of various government and non-government organizations.",
+            "Extent of the data": "The data is served for the five divisional cities of Bangladesh namely Barisal, Khulna, Chattogram, Rajshahi and Sylhet. The geographical extent of this data are as follows:\nNorth: 25°12'21.41\"Nand 91°16'4.99\"E\nSouth: 20°34'32.91\"N and 92°20'11.98\"E\nEast: 21°17'12.34\"N and 92°40'48.23\"\nWest: 23°47'4.64\"N and 88°33'22.21\"E.",
+            "Normative References": "•\tFair Mapping (August 2000), 8th edition\n•\tPrecis on Surveying and Mapping (April 2000)\n•\tTechnical instructions for field verification of the topographic map of the field season 2019-2020 (SOB)  •\tGuidelines for Data Product Specifications (NSDI)\n•\tGuidelines for Data Quality (NSDI)\n•\tGuidelines for Metadata (NSDI)"
+        },
+        "Scope": {
+            "Scope identification": "Data Product Specification for Survey of Bangladesh (SOB).",
+            "Hierarchical level": "Root level to divisional city level"
+        },
+        "Data Product Identification": {
+            "Name": "Data Product Specifications on Divisional City Surrounding 1:5000 Scale",
+            "Date of Data Creation": "2013 - 2016",
+            "Contact information": "GIS in Charge\nDigital Mapping Centre,\nTelephone: +880-2-9114191\nEmail: info@sob.gov.bd website: https:www.sob.gov.bd \nAddress:  Dhamalkote, Mirpur-14, Dhaka."
+        },
+        "Data Content and Structure": "Detail data structure is attached in the Annex 01.",
+        "Reference System": {
+            "Spatial reference system": "Projected Coordinate System: BUTM2010\nProjection: Transverse Mercator\nUnit: Meters (1.0)\nFalse Easting: 500000\nFalse Northing: 0\nCentra Meridian: 90\nScale Factor: 0.9996\nLatitude of Origin: 0\nGeographic Coordinate System: WGS 1984\nAngular Unit: Degree (0.0174532925199433)\nPrime Meridian: Greenwich (0.0)\nDatum: D WGS 1984\nSpheroid: WGS 1984\nSemimajor Axis: 6378137\nSemiminor Axis: 6356752.314\nInverse Flattening: 298.2572236",
+            "Temporal reference system": "Reference system identifier: Gregorian Calendar"
+        },
+        "Data Quality": "Technical instructions for field verification of the topographic map of “Divisional City Surrounding 1: 5000 Scale” (2013-2016).",
+        "Data Product Delivery": {
+            "Name of data formats": "Esri Geodatabase format",
+            "Structure of data set": "GIS Data is stored and managed in Esri Geodatabase format. Major layersfeatures are as follows: \nFeature Dataset Name\nIndustry\nRelief\nTransportation\nFacilities\nHydrographic_Feature\nK_P_I\nGeodetic_Control_Point\nVegetation\nAdministrative_Boundary\nBuilding_and_Structure\nAnnotationDataset",
+            "Encoding rules": "Esri Geodatabase Format",
+            "Language": "English"
+        },
+        "Metadata": "Metadata Instruction for Divisional City Surrounding 1: 5000 Scale Map."
+    },
+    {
+        "Organization": "Bangladesh Space Research and Remote Sensing Organization (SPAARSO)",
+        "Overview": {
+            "Title": "Data Product Specifications on Geospatial Data of SPAARSO",
+            "Date": "30-Sep-2021",
+            "Responsible Organization": "Bangladesh Space Research and Remote Sensing Organization (SPAARSO)",
+            "Language": "English",
+            "Topic Category": "Space Research",
+            "Document Format": "Microsoft Word",
+            "Objectives": "SPAARSO aims at deploying space and geospatial technology for confronting issued like climate change, food security, natural resource management, natural disaster. Its vision is to use this information to contribute to the improvement of people's living standards and national development",
+            "Extent of the data": "Spatial extent of the data is whole Bangladesh. The Geographic coordinate system of the database is as follows \nGeographic Coordinate System: WGS 1984 \nTop: 26.634395 dd\nBottom: 20.641547 dd\nLeft: 88.010569 dd\nRight: 92.627508 dd",
+            "Normative References": "Guidelines for Data Product Specifications (NSDI)\nGuidelines for Data Quality (NSDI)\nGuidelines for Metadata (NSDI)"
+        },
+        "Scope": {
+            "Scope identification": "Providing geospatial information to government organizations of Bangladesh which is derived from space technology. ",
+            "Hierarchical level": "Root level to scope level hierarchy"
+        },
+        "Data Product Identification": {
+            "Name": "Data Product Specifications on Geospatial Data of Bangladesh Space Research and Remote Sensing Organization (SPARRSO)",
+            "Date of Data Creation": "Vector Data : 2018\nRaster Data: 2020\n",
+            "Contact information": "Agargaon, Sher-e-Bangla Nagar, Dhaka-1207, Bangladesh.\nWeb: www.sparrso.gov.bd\nEmail: admin@sparrso.gov.bd\nFax:  +88-02-48111169\nTel:  +88-02-48117692"
+        },
+        "Geographic description": "Geospatial database for whole Bangladesh. ",
+        "Data Content and Structure": "Detail data structure is attached in the annex 01.",
+        "Reference System": {
+            "Spatial reference system": "WGS 1984 UTM Zone 45N\nProjection: Transverse Mercator\nProjection parameters: \n      False_Easting\t 500000.0\n      False_Northing\t 0.0\n      Central_Meridian\t 87.0\n      Scale_Factor \t 0.9996\n      Latitude_Of_Origin\t 0\n      Linear Unit\t         Meter (1.0) \nGeographic Coordinate System: WGS 1984\t\n     Angular Unit     Degree (0.0174532925199433)\n     Prime Meridian\tGreenwich (0.0)\n     Datum\t         D WGS 1984\n     Spheroid\t         WGS 1984\n     Semimajor Axis\t 6378137.0\n     Semiminor Axis\t6356752.314245179\n     Inverse Flattening\t 298.257223563\nWGS 1984 UTM Zone 46N\nProjection: Transverse Mercator\nProjection parameters: \n      False_Easting\t 500000.0\n      False_Northing\t 0.0\n      Central_Meridian\t 93.0\n      Scale_Factor \t 0.9996\n      Latitude_Of_Origin\t 0\n      Linear Unit\t         Meter (1.0) \nGeographic Coordinate System: WGS 1984\t\n      \n      Angular Unit        Degree (0.0174532925199433)\n      Prime Meridian\tGreenwich (0.0)\n      Datum\t         D WGS 1984\n      Spheroid\t         WGS 1984\n      Semimajor Axis\t 6378137.0\n      Semiminor Axis\t 6356752.314245179\n      Inverse Flattening\t 298.257223563",
+            "Temporal reference system": "Reference system identifier: Gregorian Calendar"
+        },
+        "Data Quality": "In future ‘Data Quality Assessment’ document will be developed by utilizing ‘Guidelines for Data Quality’ of NSDI.",
+        "Data Product Delivery": {
+            "Name of data formats": "Vector Data: ArcGIS Shapefile\nRaster Data: SAFE format\nThe format groups together several types of files:\n•\tmetadata file (XML file)\n•\tpreview image (JPEG2000 with GML geo-location)\n•\ttiles files with BOA reflectances image data file (GML  JPEG2000) for each tile\n•\tdatastrip files\n•\tauxiliary data\n•\tancillary data (GIPPs, set of XML files).",
+            "Structure of data set": "Detail of data set structure can be found in Annex 1",
+            "Encoding rules": "Vector Data: ArcGIS Shapefile\nRaster Data: image (.img) file format",
+            "Language": "English"
+        },
+        "Metadata": "Rules of metadata are not followed but the need basis metadata is stored. In future meta document will be prepared according to Guidelines for Metadata (NSDI)\n"
+    },
+    {
+        "Organization": "Soil Resource Development Institute (SRDI)",
+        "Overview": {
+            "Title": "Soil and Land Inventory Geodata of SRDI",
+            "Date": "30-Sep-2021",
+            "Responsible Organization": "Soil Resource Development Institute (SRDI)",
+            "Language": "English",
+            "Topic Category": "Soil Properties",
+            "Document Format": "Microsoft Word",
+            "Objectives": "The database provides upazila wise information about soil properties (soil series, pH, texture etc.) of whole Bangladesh. It also provides information about different map units. This inventory of soils of Bangladesh generates information for sustainable crop production, crop zoning and crop suitability through improved soil management and preservation of environment.",
+            "Extent of the data": "Upzilas of Bangladesh",
+            "Normative References": "Fertilizer (Control) Acts 1999\nGuidelines for Data Product Specifications (NSDI)\nGuidelines for Data Quality (NSDI)\nGuidelines for Metadata (NSDI)"
+        },
+        "Scope": {
+            "Scope identification": "Data Product Specifications on Upazila level information and spatial data about Soil and Land Inventory.",
+            "Hierarchical level": "Root level to scope level hierarchy"
+        },
+        "Data Product Identification": {
+            "Name": "      Soil and Land Inventory Geodata of SRDI",
+            "Date of Data Creation": "NA",
+            "Contact information": "Director General\n Telephone: 02-9113363\nSoil Resource Development Institute, \nHead Quarter, Dhaka"
+        },
+        "Geographic description": "Upazilas of whole land of Bangladesh ",
+        "Data Content and Structure": "Detail data structure is attached in the annex 01.",
+        "Reference System": {
+            "Spatial reference system": "Projected Coordinate System BUTM2010\n      Projection\t      \t\tTransverse Mercator\n      Projection parameters\n      Authority\t\t\tCustom\n      False_Easting\t\t500000.0\n      False_Northing\t\t0.0\n      Central_Meridian\t\t90.0\n      Scale_Factor \t\t0.9996\n      Latitude_Of_Origin\t\t0.0\n      Linear Unit\t         \tMeter (1.0)\n      Geographic Coordinate System\tWGS 1984\n      Angular Unit \t\tDegree (0.0174532925199433)\n      Prime Meridian\t\tGreenwich (0.0)\n      Datum\t        \t\tD WGS 1984\n      Spheroid\t        \t\tWGS 1984\n      Semimajor Axis\t\t6378137.0\n      Semiminor Axis\t\t6356752.314245179\n      Inverse Flattening\t\t298.257223563",
+            "Temporal reference system": "Reference system identifier: Gregorian Calendar"
+        },
+        "Data Quality": "SRDI created this survey data at 1: 50,000 scale by free hand digitization from Survey of Bangladesh’s Arial Photo map (spatial resolution Arial Photo is 50 cm) height. Later they verified this data in the field. This process is followed to create soil polygon data. The quality of the data is compromised due to hand digitization.\nOn the other hand, soil sample points data (soil chemical and physical properties data added as attributes to this point) are collected by using handheld GPS with an accuracy of (+-) 5 m.\nSRDI will purchase Survey of Bangladesh’s data to enhance and add value to it’s Upazila soil maps.",
+        "Data Product Delivery": {
+            "Name of data formats": "ArcGIS Shapefile format",
+            "Structure of data set": "Detail of data set structure can be found in Annex1",
+            "Encoding rules": "ArcGIS Shapefile",
+            "Language": "English"
+        },
+        "Metadata": "To be prepared according to Guidelines for Metadata (NSDI)"
+    },
+    {
+        "Organization": "Water Resources Planning Organization (WARPO)",
+        "Overview": {
+            "Title": "Data Product Specifications on National Water Resources Data of WARPO",
+            "Date": "NA",
+            "Responsible Organization": "Water Resources Planning Organization (WARPO)",
+            "Language": "English",
+            "Topic Category": "National Water Resources",
+            "Document Format": "Microsoft Word",
+            "Objectives": "National Water Resources Database (NWRD) to meet the demand of consistent and corrected data and information from the planners, researchers and managers working in water sector. It is a mandate of WARPO to establish and update the National Water Resources Database (NWRD). The NWRD has become the largest geo-spatial database in the country, which holds spatial, temporal and attribute information on water resources. The NWRD is organized into data groups like Base Data, Surface water, Groundwater, Soil and Agriculture, Fisheries, Forest, Socio-economic, Meteorological, Documents and Reports, Environment and Image.",
+            "Normative References": "National Water Policy,1999\nBangladesh Water Act, 2013\nData Catalog: Integrated Coastal Resources Database (ICRD)\nGuidelines for Data Product Specifications (NSDI)\nGuidelines for Data Quality (NSDI)\nGuidelines for Metadata (NSDI)"
+        },
+        "Scope": {
+            "Scope identification": "Data Product Specifications on Natural Water Resources",
+            "Hierarchical level": "Root level to national level\n"
+        },
+        "Data Product Identification": {
+            "Name": "Data Product Specifications on National Water Resources",
+            "Date of Data Creation": "The databases are prepared or updated during National Water Management Plan. The detailed about product preparation is given in Annex 2 (Metadata & Data Quality Assessment Document)",
+            "Contact information": "Water Resources Planning Organization (WARPO)\nWARPO Bhaban, 72, Green Road, Dhaka 1215, Bangladesh.\n      Telephone: +88 02 44819006, +88 02 44819015\n      Fax: +88 02 44819002\n      Email: dg@warpo.gov.bd"
+        },
+        "Geographic description": "The database covers the whole Bangladesh",
+        "Data Content and Structure": "Detail data structure is attached in the annex 01 (Data content and structure document)",
+        "Reference System": {
+            "Spatial reference system": "Bangladesh Transverse Mercator\n\n      Projection\t        Transverse_Mercator\n      Projection parameters\n      False_Easting\t500000\n      False_Northing\t-2000000\n      Central_Meridian\t90\n      Scale_Factor \t0.9996\n      Latitude_Of_Origin\t0\n      Linear Unit\t        Meter (1.0)\n\n      Geographic Coordinate System\t\n\n      GCS_Everest_1830\n      Angular Unit \tDegree (0.0174532925199433)\n      Prime Meridian\tGreenwich (0.0)\n      Datum\t\tD_Everest_1830\n      Spheroid\t\tEverest_1830\n      Semimajor Axis\t6377299.36\n      Semiminor Axis\t6356098.352\n      Inverse Flattening\t300.8017",
+            "Temporal reference system": "Reference system identifier: Gregorian Calendar"
+        },
+        "Data Quality": "The Data quality strictly depends on the source of data collection, accuracy and precision of the source map or satellite image. A detailed description about the data quality is provided in Annex 2",
+        "Data Product Delivery": {
+            "Name of data formats": "ArcGIS Shapefile format",
+            "Structure of data set": "ArcGIS Shapefile\nFeature Class",
+            "Encoding rules": "None",
+            "Language": "English"
+        },
+        "Metadata": "A detailed description about the metadata is provided in Annex 2"
+    }
+]
