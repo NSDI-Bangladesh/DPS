@@ -104,7 +104,8 @@
         "Data Product Delivery": {
             "Name of data formats": "ArcGIS Geodatabase and Esri Shapefile Format.",
             "Encoding rules": "ArcGIS Geodatabase and Esri Shapefile",
-            "Language": "English"
+            "Language": "English",
+            "Structure of data set": "NA"
         },
         "Metadata": "To be prepared according to Guidelines for Metadata (NSDI)"
     },
